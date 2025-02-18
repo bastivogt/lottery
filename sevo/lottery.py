@@ -11,6 +11,9 @@ class Lottery:
         self._max = max
         self._all_numbers = []
 
+    def reset(self, count:int=6, max:int=49):
+        self.__init__(count, max)
+
     
     def generate_and_draw(self):
         self._all_numbers = [num for num in range(1, self._max + 1)]
