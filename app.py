@@ -1,7 +1,9 @@
 from sevo import lottery
 
-
+print("*********************************")
 print("*** Lottery Drawing Generator ***")
+print("*********************************\n")
+
 count = int(input("Enter the count of draws: "))
 print("Your draws: \n")
 
