@@ -4,10 +4,10 @@ print("*********************************")
 print("*** Lottery Drawing Generator ***")
 print("*********************************\n")
 
-count = int(input("Enter the count of draws: "))
+count: int = int(input("Enter the count of draws: "))
 print("\nYour draws: \n")
 
-lottery_game = lottery.Lottery()
+lottery_game: lottery.Lottery = lottery.Lottery()
 lottery_game.generate_and_draw()
 
 
